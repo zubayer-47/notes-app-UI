@@ -1,11 +1,8 @@
-import { FC } from 'react';
 
-interface NotesProps { }
-
-const Notes: FC<NotesProps> = () => {
-    return <div>
-
-    </div>
+function Notes() {
+    return (
+        <div>Notes</div>
+    )
 }
 
-export default Notes;
+export default Notes
